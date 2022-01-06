@@ -1,0 +1,3244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
+    background-color: #0f0f0f;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+@media screen and (min-width:320px)and (max-width:449px) {
+
+    .lien,
+    .imgpc {
+        display: none;
+    }
+
+    .mobile {
+        height: 00px;
+        text-align: center;
+        transition: .7s ease;
+        overflow-x: hidden;
+    }
+
+    .mobi {
+        list-style: none;
+    }
+
+    .mobile a {
+        text-decoration: none;
+        margin-top: 50px;
+        display: inline-block;
+        transition: .7s ease;
+        color: white;
+    }
+
+    /* nav*/
+    .nav {
+        display: flex;
+        position: relative;
+    }
+
+    .logo img {
+        width: 120px;
+        padding: 15px;
+    }
+
+    .btn {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .btn div {
+        width: 25px;
+        height: 5px;
+        background-color: #0388a6;
+        margin-top: 5px;
+        border-radius: 9px;
+    }
+
+    /* end nav*/
+    /*  pertie 1 */
+    .partie1 {
+        margin-top: 30px;
+    }
+
+    .salut {
+        text-align: center;
+    }
+
+    .salut h1 {
+        font-size: 35px;
+        color: #f27f3c;
+        margin-bottom: 5px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 35px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    .salut h3 {
+        font-size: 35px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 5px;
+
+    }
+
+    .salut p {
+        font-size: 20px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .imgmobil {
+        text-align: center;
+    }
+
+    .imgmobil img {
+        width: 370px;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: 270px;
+    }
+
+    /* end partie 1 */
+    /*   about */
+    .about {
+        text-align: center;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    .imgmehdi img {
+        width: 200px;
+        margin-top: 50px;
+        transition: .9s ease;
+    }
+
+    .imgmehdi {
+        /*transform: translateX(100vw)rotateY(360deg);*/
+    }
+
+    .imgmehdi .akka {
+        transform: translateX(0)rotateY(0);
+
+    }
+
+    .about .discription {
+        margin-top: 10px;
+    }
+
+    .about .discription h3,
+    .about .discription h4 {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .p1 p,
+    .p2 p {
+        margin-bottom: 4px;
+        font-size: 12px;
+
+    }
+
+    /* end about  */
+
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 150px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    /* end project  */
+
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 80px;
+        background-color: black;
+
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+
+    /* end Contact  */
+
+}
+
+@media screen and (min-width:450px)and (max-width:599px) {
+
+    .lien,
+    .imgpc {
+        display: none;
+    }
+
+    .mobile {
+        height: 00px;
+        text-align: center;
+        transition: .7s ease;
+        overflow-x: hidden;
+    }
+
+    .mobi {
+        list-style: none;
+    }
+
+    .mobile a {
+        text-decoration: none;
+        margin-top: 50px;
+        display: inline-block;
+        transition: .7s ease;
+
+    }
+
+    /* nav*/
+    .nav {
+        display: flex;
+        position: relative;
+    }
+
+    .logo img {
+        width: 150px;
+        padding: 15px;
+    }
+
+    .btn {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+    .btn div {
+        width: 25px;
+        height: 5px;
+        background-color: #0388a6;
+        margin-top: 5px;
+        border-radius: 9px;
+    }
+
+    /* end nav*/
+    /*  pertie 1 */
+    .partie1 {
+        margin-top: 30px;
+    }
+
+    .salut {
+        text-align: center;
+    }
+
+    .salut h1 {
+        font-size: 35px;
+        color: #f27f3c;
+        margin-bottom: 5px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 35px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    .salut h3 {
+        font-size: 35px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 5px;
+
+    }
+
+    .salut p {
+        font-size: 20px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .imgmobil {
+        text-align: center;
+    }
+
+    .imgmobil img {
+        width: 460px;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: 340px;
+        object-fit: contain;
+    }
+
+    /* end partie 1 */
+    /*   about */
+    .about {
+        text-align: center;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    .imgmehdi img {
+        width: 200px;
+        margin-top: 50px;
+        transition: .9s ease;
+    }
+
+    .imgmehdi {
+        /*transform: translateX(100vw)rotateY(360deg);*/
+    }
+
+    .imgmehdi .akka {
+        transform: translateX(0)rotateY(0);
+
+    }
+
+    .about .discription {
+        margin-top: 10px;
+    }
+
+    .about .discription h3,
+    .about .discription h4 {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .p1 p,
+    .p2 p {
+        margin-bottom: 4px;
+        font-size: 12px;
+
+    }
+
+    /* end about  */
+
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 200px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    /* end project  */
+
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 100px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+
+    /* end Contact  */
+
+}
+
+@media screen and (min-width:600px)and (max-width:769px) {
+
+    .lien,
+    .imgpc {
+        display: none;
+    }
+
+    .mobile {
+        height: 00px;
+        text-align: center;
+        transition: .7s ease;
+        overflow-x: hidden;
+    }
+
+    .mobi {
+        list-style: none;
+    }
+
+    .mobile a {
+        text-decoration: none;
+        margin-top: 50px;
+        display: inline-block;
+        transition: .7s ease;
+
+    }
+
+    /* nav*/
+    .nav {
+        display: flex;
+        position: relative;
+    }
+
+    .logo img {
+        width: 170px;
+        padding: 15px;
+    }
+
+    .btn {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .btn div {
+        width: 25px;
+        height: 5px;
+        background-color: #0388a6;
+        margin-top: 5px;
+        border-radius: 9px;
+    }
+
+    /* end nav*/
+    /*  pertie 1 */
+    .partie1 {
+        margin-top: 30px;
+    }
+
+    .salut {
+        text-align: center;
+    }
+
+    .salut h1 {
+        font-size: 35px;
+        color: #f27f3c;
+        margin-bottom: 5px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 35px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    .salut h3 {
+        font-size: 35px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 5px;
+
+    }
+
+    .salut p {
+        font-size: 20px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .imgmobil {
+        text-align: center;
+    }
+
+    .imgmobil img {
+        width: 490px;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: 300px;
+    }
+
+    /* end partie 1 */
+    /*   about */
+    .about {
+        text-align: center;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    .imgmehdi img {
+        width: 200px;
+        margin-top: 50px;
+        transition: .9s ease;
+    }
+
+    .imgmehdi {
+        /*transform: translateX(100vw)rotateY(360deg);*/
+    }
+
+    .imgmehdi .akka {
+        transform: translateX(0)rotateY(0);
+
+    }
+
+    .about .discription {
+        margin-top: 10px;
+    }
+
+    .about .discription h3,
+    .about .discription h4 {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .p1 p,
+    .p2 p {
+        margin-bottom: 4px;
+        font-size: 12px;
+
+    }
+
+    /* end about  */
+
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 250px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    /* end project  */
+
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 130px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+
+    /* end Contact  */
+}
+
+@media screen and (min-width:770px)and (max-width:1024px) {
+
+    .lien,
+    .imgpc {
+        display: none;
+    }
+
+    .mobile {
+        height: 00px;
+        text-align: center;
+        transition: .7s ease;
+        overflow: hidden;
+    }
+
+    .mobi {
+        list-style: none;
+    }
+
+    .mobile a {
+        text-decoration: none;
+        margin-top: 50px;
+        display: inline-block;
+        transition: .7s ease;
+    }
+
+    /* nav*/
+    .nav {
+        display: flex;
+        position: relative;
+    }
+
+    .logo img {
+        width: 190px;
+        padding: 15px;
+    }
+
+    .btn {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    .btn div {
+        width: 25px;
+        height: 5px;
+        background-color: #0388a6;
+        margin-top: 5px;
+        border-radius: 9px;
+    }
+
+    /* end nav*/
+    /*  pertie 1 */
+    .partie1 {
+        margin-top: 30px;
+    }
+
+    .salut {
+        text-align: center;
+    }
+
+    .salut h1 {
+        font-size: 35px;
+        color: #f27f3c;
+        margin-bottom: 5px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 35px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    .salut h3 {
+        font-size: 35px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 5px;
+
+    }
+
+    .salut p {
+        font-size: 20px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .imgmobil {
+        text-align: center;
+    }
+
+    .imgmobil img {
+        width: 650px;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: 400px;
+    }
+
+    /* end partie 1 */
+    /*   about */
+    .about {
+        text-align: center;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    .imgmehdi img {
+        width: 200px;
+        margin-top: 50px;
+        transition: .9s ease;
+    }
+
+    .imgmehdi {
+        /*transform: translateX(100vw)rotateY(360deg);*/
+    }
+
+    .imgmehdi .akka {
+        transform: translateX(0)rotateY(0);
+
+    }
+
+    .about .discription {
+        margin-top: 10px;
+    }
+
+    .about .discription h3,
+    .about .discription h4 {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .p1 p,
+    .p2 p {
+        margin-bottom: 4px;
+        font-size: 16px;
+
+    }
+
+    /* end about  */
+
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    /* end project  */
+
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    /* end Contact  */
+}
+
+@media screen and (min-width:1025px)and (max-width:1200px) {
+    * {}
+
+    /* nev */
+    .mobile,
+    .imgmobil,
+    .btn {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav .logo img {
+        width: 230px;
+        padding: 20px;
+    }
+
+    .ligne {}
+
+    .lienpc {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+        padding: 0 50px;
+
+    }
+
+    .lienpc a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #0388a6;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .lienpc a:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .lienpc a:hover:after {
+        width: 100%;
+    }
+
+    /* end nev */
+    /* partie 1 */
+    .partie1 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partie1,
+    .imgpc img {
+        height: 550px;
+    }
+
+    .salut {
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    .salut h1 {
+        font-size: 50px;
+        color: #f27f3c;
+        margin-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 40px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut h3 {
+        font-size: 40px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut p {
+        font-size: 25px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    /* end partie 1 */
+    /*  about  */
+    .about {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .imgmehdi img {
+        width: 250px;
+        margin-top: 60px;
+        margin: 0 50px;
+        transition: .7s ease;
+    }
+
+    .imgmehdi img:hover {
+        transform: scale(1.1);
+
+    }
+
+    .discription h3,
+    .discription h4,
+    .discription p {
+        margin-bottom: 10px;
+    }
+
+    .tousabout {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .p1 {
+        margin-left: -50px;
+    }
+
+    .discription {
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .table {
+        display: flex;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .discription h4 {
+        font-size: 13px;
+    }
+
+    .table p {
+        padding-left: 50px;
+    }
+
+    /* end about  */
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .project #pr1 {
+        position: relative;
+    }
+
+    .project #pr1:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 25px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr1:hover:after {
+        width: 305px;
+        content: "s-tacos";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    .project #pr2 {
+        position: relative;
+    }
+
+    .project #pr2:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 25px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr2:hover:after {
+        width: 305px;
+        content: "portfolio";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    /* end project  */
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+        transition: .7s ease;
+    }
+
+    .footer .fab:hover {
+        transform: scale(1.1);
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    /* end Contact  */
+}
+
+@media screen and (min-width:1201px)and (max-width:1300px) {
+    * {}
+
+    /* nev */
+    .mobile,
+    .imgmobil,
+    .btn {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav .logo img {
+        width: 230px;
+        padding: 20px;
+    }
+
+    .ligne {}
+
+    .lienpc {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+        padding: 0 50px;
+
+    }
+
+    .lienpc a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #0388a6;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .lienpc a:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .lienpc a:hover:after {
+        width: 100%;
+    }
+
+    /* end nev */
+    /* partie 1 */
+    .partie1 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partie1,
+    .imgpc img {
+        height: 550px;
+    }
+
+    .salut {
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 100px;
+    }
+
+    .salut h1 {
+        font-size: 50px;
+        color: #f27f3c;
+        margin-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 40px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut h3 {
+        font-size: 40px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut p {
+        font-size: 25px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    /* end partie 1 */
+    /*  about  */
+    .about {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .imgmehdi img {
+        width: 250px;
+        margin-top: 60px;
+        margin: 0 50px;
+        transition: .7s ease;
+    }
+
+    .imgmehdi img:hover {
+        transform: scale(1.1);
+
+    }
+
+    .discription h3,
+    .discription h4,
+    .discription p {
+        margin-bottom: 10px;
+    }
+
+    .tousabout {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .p1 {
+        margin-left: -50px;
+    }
+
+    .discription {
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .table {
+        display: flex;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .discription h4 {
+        font-size: 13px;
+    }
+
+    .table p {
+        padding-left: 50px;
+    }
+
+    /* end about  */
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .project #pr1 {
+        position: relative;
+    }
+
+    .project #pr1:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 25px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr1:hover:after {
+        width: 305px;
+        content: "s-tacos";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    .project #pr2 {
+        position: relative;
+    }
+
+    .project #pr2:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 25px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr2:hover:after {
+        width: 305px;
+        content: "portfolio";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    /* end project  */
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+        transition: .7s ease;
+    }
+
+    .footer .fab:hover {
+        transform: scale(1.1);
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    /* end Contact  */
+}
+
+@media screen and (min-width:1301px)and (max-width:1400px) {
+
+    /* nev */
+    .mobile,
+    .imgmobil,
+    .btn {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav .logo img {
+        width: 230px;
+        padding: 20px;
+    }
+
+    .ligne {}
+
+    .lienpc {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+        padding: 0 50px;
+
+    }
+
+    .lienpc a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #0388a6;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .lienpc a:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .lienpc a:hover:after {
+        width: 100%;
+    }
+
+    /* end nev */
+    /* partie 1 */
+    .partie1 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partie1,
+    .imgpc img {
+        height: 550px;
+    }
+
+    .salut {
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 150px;
+    }
+
+    .salut h1 {
+        font-size: 50px;
+        color: #f27f3c;
+        margin-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 40px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut h3 {
+        font-size: 40px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut p {
+        font-size: 25px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    /* end partie 1 */
+    /*  about  */
+    .about {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .imgmehdi img {
+        width: 250px;
+        margin-top: 60px;
+        margin: 0 50px;
+        transition: .7s ease;
+        margin-left: -80px;
+    }
+
+    .imgmehdi img:hover {
+        transform: scale(1.1);
+
+    }
+
+    .discription h3,
+    .discription h4,
+    .discription p {
+        margin-bottom: 10px;
+    }
+
+    .tousabout {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .p1 {
+        margin-left: -50px;
+    }
+
+    .discription {
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .table {
+        display: flex;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .discription h4 {
+        font-size: 13px;
+    }
+
+    .table p {
+        padding-left: 50px;
+    }
+
+    /* end about  */
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .project #pr1 {
+        position: relative;
+    }
+
+    .project #pr1:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr1:hover:after {
+        width: 350px;
+        content: "s-tacos";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    .project #pr2 {
+        position: relative;
+    }
+
+    .project #pr2:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr2:hover:after {
+        width: 350px;
+        content: "portfolio";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    /* end project  */
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+        transition: .7s ease;
+    }
+
+    .footer .fab:hover {
+        transform: scale(1.1);
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    /* end Contact  */
+}
+
+@media screen and (min-width:1401px)and (max-width:1600px) {
+
+    /* nev */
+    .mobile,
+    .imgmobil,
+    .btn {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav .logo img {
+        width: 230px;
+        padding: 20px;
+    }
+
+    .ligne {}
+
+    .lienpc {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+        padding: 0 50px;
+
+    }
+
+    .lienpc a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #0388a6;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .lienpc a:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .lienpc a:hover:after {
+        width: 100%;
+    }
+
+    /* end nev */
+    /* partie 1 */
+    .partie1 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partie1,
+    .imgpc img {
+        height: 600px;
+    }
+
+    .salut {
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 170px;
+    }
+
+    .salut h1 {
+        font-size: 60px;
+        color: #f27f3c;
+        margin-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 40px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut h3 {
+        font-size: 50px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut p {
+        font-size: 30px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    /* end partie 1 */
+    /*  about  */
+    .about {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .imgmehdi img {
+        width: 250px;
+        margin-top: 60px;
+        margin: 0 50px;
+        transition: .7s ease;
+        margin-left: -80px;
+    }
+
+    .imgmehdi img:hover {
+        transform: scale(1.1);
+
+    }
+
+    .discription h3,
+    .discription h4,
+    .discription p {
+        margin-bottom: 10px;
+    }
+
+    .tousabout {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .p1 {
+        margin-left: -50px;
+    }
+
+    .discription {
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .table {
+        display: flex;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .discription h4 {
+        font-size: 13px;
+    }
+
+    .table p {
+        padding-left: 50px;
+    }
+
+    /* end about  */
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .partie10 {
+        margin-right: 50px;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .project #pr1 {
+        position: relative;
+    }
+
+    .project #pr1:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr1:hover:after {
+        width: 350px;
+        content: "s-tacos";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    .project #pr2 {
+        position: relative;
+    }
+
+    .project #pr2:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr2:hover:after {
+        width: 350px;
+        content: "portfolio";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    /* end project  */
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+        transition: .7s ease;
+    }
+
+    .footer .fab:hover {
+        transform: scale(1.1);
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    /* end Contact  */
+}
+
+@media screen and (min-width:1601px)and (max-width:1800px) {
+
+    /* nev */
+    .mobile,
+    .imgmobil,
+    .btn {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav .logo img {
+        width: 230px;
+        padding: 20px;
+    }
+
+    .lienpc {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+        padding: 0 50px;
+
+    }
+
+    .lienpc a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #0388a6;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .lienpc a:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .lienpc a:hover:after {
+        width: 100%;
+    }
+
+    /* end nev */
+    /* partie 1 */
+    .partie1 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partie1,
+    .imgpc img {
+        height: 600px;
+    }
+
+    .salut {
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 170px;
+    }
+
+    .salut h1 {
+        font-size: 60px;
+        color: #f27f3c;
+        margin-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 40px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut h3 {
+        font-size: 50px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut p {
+        font-size: 30px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    /* end partie 1 */
+    /*  about  */
+    .about {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .imgmehdi img {
+        width: 250px;
+        margin-top: 60px;
+        margin: 0 50px;
+        transition: .7s ease;
+        margin-left: -80px;
+    }
+
+    .imgmehdi img:hover {
+        transform: scale(1.1);
+
+    }
+
+    .discription h3,
+    .discription h4,
+    .discription p {
+        margin-bottom: 10px;
+    }
+
+    .tousabout {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .p1 {
+        margin-left: -50px;
+    }
+
+    .discription {
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .table {
+        display: flex;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .discription h4 {
+        font-size: 13px;
+    }
+
+    .table p {
+        padding-left: 50px;
+    }
+
+    /* end about  */
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .partie10 {
+        margin-right: 50px;
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .project #pr1 {
+        position: relative;
+    }
+
+    .project #pr1:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr1:hover:after {
+        width: 350px;
+        content: "s-tacos";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    .project #pr2 {
+        position: relative;
+    }
+
+    .project #pr2:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr2:hover:after {
+        width: 350px;
+        content: "portfolio";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    /* end project  */
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+        transition: .7s ease;
+    }
+
+    .footer .fab:hover {
+        transform: scale(1.1);
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    /* end Contact  */
+}
+
+@media screen and (min-width:1801px)and (max-width:2000px) {
+
+    /* nev */
+    .mobile,
+    .imgmobil,
+    .btn {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav .logo img {
+        width: 230px;
+        padding: 20px;
+    }
+
+    .ligne {}
+
+    .lienpc {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+        padding: 0 50px;
+
+    }
+
+    .lienpc a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #0388a6;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .lienpc a:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .lienpc a:hover:after {
+        width: 100%;
+    }
+
+    /* end nev */
+    /* partie 1 */
+    .partie1 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partie1,
+    .imgpc img {
+        height: 650px;
+    }
+
+    .salut {
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 320px;
+    }
+
+    .salut h1 {
+        font-size: 60px;
+        color: #f27f3c;
+        margin-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 40px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut h3 {
+        font-size: 50px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut p {
+        font-size: 30px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    /* end partie 1 */
+    /*  about  */
+    .about {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .imgmehdi img {
+        width: 250px;
+        margin-top: 60px;
+        margin: 0 50px;
+        transition: .7s ease;
+        margin-left: -80px;
+    }
+
+    .imgmehdi img:hover {
+        transform: scale(1.1);
+
+    }
+
+    .discription h3,
+    .discription h4,
+    .discription p {
+        margin-bottom: 10px;
+    }
+
+    .tousabout {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .p1 {
+        margin-left: -50px;
+    }
+
+    .discription {
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .table {
+        display: flex;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .discription h4 {
+        font-size: 13px;
+    }
+
+    .table p {
+        padding-left: 50px;
+    }
+
+    /* end about  */
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .partie10 {
+        margin-right: 80px
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .project #pr1 {
+        position: relative;
+    }
+
+    .project #pr1:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr1:hover:after {
+        width: 350px;
+        content: "s-tacos";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    .project #pr2 {
+        position: relative;
+    }
+
+    .project #pr2:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr2:hover:after {
+        width: 350px;
+        content: "portfolio";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    /* end project  */
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+        transition: .7s ease;
+    }
+
+    .footer .fab:hover {
+        transform: scale(1.1);
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    /* end Contact  */
+}
+
+@media screen and (min-width:2001px) {
+
+    /* nev */
+    .mobile,
+    .imgmobil,
+    .btn {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .nav .logo img {
+        width: 230px;
+        padding: 20px;
+    }
+
+    .lienpc {
+        display: flex;
+        list-style: none;
+        margin-top: 40px;
+        padding: 0 50px;
+
+    }
+
+    .lienpc a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: #0388a6;
+        font-size: 15px;
+        position: relative;
+    }
+
+    .lienpc a:after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .lienpc a:hover:after {
+        width: 100%;
+    }
+
+    /* end nev */
+    /* partie 1 */
+    .partie1 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partie1,
+    .imgpc img {
+        height: 680px;
+    }
+
+    .salut {
+        text-align: center;
+        margin-top: 120px;
+        margin-left: 350px;
+    }
+
+    .salut h1 {
+        font-size: 60px;
+        color: #f27f3c;
+        margin-bottom: 10px;
+        margin-right: 70px;
+    }
+
+    .salut h2 {
+        font-size: 40px;
+        color: #0388a6;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut h3 {
+        font-size: 50px;
+        color: #d96299;
+        margin-left: 110px;
+        margin-bottom: 10px;
+
+    }
+
+    .salut p {
+        font-size: 30px;
+        margin-left: 10px;
+        color: white;
+    }
+
+    .nos h1 {
+        color: #f27f3c;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nos .ligne {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 0 auto;
+        transition: .7s ease;
+    }
+
+    .nos:hover .ligne {
+        width: 80px;
+    }
+
+    /* end partie 1 */
+    /*  about  */
+    .about {
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .imgmehdi img {
+        width: 250px;
+        margin-top: 60px;
+        margin: 0 50px;
+        transition: .7s ease;
+        margin-left: -80px;
+    }
+
+    .imgmehdi img:hover {
+        transform: scale(1.1);
+
+    }
+
+    .discription h3,
+    .discription h4,
+    .discription p {
+        margin-bottom: 10px;
+    }
+
+    .tousabout {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .p1 {
+        margin-left: -50px;
+    }
+
+    .discription {
+        margin-top: 80px;
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .table {
+        display: flex;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .discription h4 {
+        font-size: 13px;
+    }
+
+    .table p {
+        padding-left: 50px;
+    }
+
+    /* end about  */
+    /*  skills  */
+    .skills {
+        margin-top: 40px;
+
+    }
+
+    .contenair {
+        margin: auto;
+        width: 350px;
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+
+    }
+
+    .tousskills {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .partie10 {
+        margin-right: 80px
+    }
+
+    .contenair section {
+        display: flex;
+        justify-content: space-between;
+        padding: 7px;
+
+    }
+
+    .purcentage {
+        width: 100%;
+        height: 10px;
+        background-color: white;
+        position: relative;
+        border-radius: 7px;
+    }
+
+    .purcentage span {
+        position: absolute;
+        left: 0;
+        background-color: rebeccapurple;
+        height: 100%;
+        border-radius: 7px;
+        transition: .9s ease;
+
+    }
+
+    /* end skills  */
+    /*  project  */
+    .project {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .project .nos {
+        margin-bottom: 40px;
+    }
+
+    .proj1 img,
+    .proj2 img {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .project #pr1 {
+        position: relative;
+    }
+
+    .project #pr1:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr1:hover:after {
+        width: 350px;
+        content: "s-tacos";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    .project #pr2 {
+        position: relative;
+    }
+
+    .project #pr2:after {
+        content: "";
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.685);
+        height: 140px;
+        width: 0px;
+        left: 28px;
+        bottom: 50px;
+        transition: 0.2s;
+    }
+
+    .project #pr2:hover:after {
+        width: 350px;
+        content: "portfolio";
+        color: #f27f3c;
+        font-size: 30px;
+
+    }
+
+    /* end project  */
+    /* Contact   */
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+
+    .footer img {
+        width: 150px;
+        background-color: black;
+
+    }
+
+    .footer .fab {
+        font-size: 20px;
+        transition: .7s ease;
+    }
+
+    .footer .fab:hover {
+        transform: scale(1.1);
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+
+    /* end Contact  */
+}
